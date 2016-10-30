@@ -1,0 +1,21 @@
+{
+  "name": "visiting-landmarks-phonegap",
+  "version": "0.0.1",
+  "description": "phonegap setup for visitinglandmarks.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisitingLandmarks/phonegap.git"
+  },
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VisitingLandmarks/phonegap/issues"
+  },
+  "homepage": "https://github.com/VisitingLandmarks/phonegap#readme"
+}

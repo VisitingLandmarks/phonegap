@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.visitinglandmarks.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Visiting Landmarks</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="info@visitinglandmarks.com" href="http://visitinglandmarks.com">
+        Visiting Landmarks
+    </author>
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.1.0" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.5.0" />
+    <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" />
+    <icon src="icon.png" />
+    <content src="index.html" />
+    <!--DisallowOverscroll (boolean, defaults to false): set to true if you don't want the WebView to rubber-band.-->
+    <preference name="DisallowOverscroll" value="true" />
+    <!--https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net-->
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="22" />
+    <!--For Android (as of its 4.0 release), Cordova's security policy is extensible via a plugin interface. Your app should use the cordova-plugin-whitelist-->
+    <!--For other platforms, Cordova adheres to the W3C Widget Access specification-->
+    <!--https://cordova.apache.org/docs/en/6.x/guide/appdev/whitelist/index.html-->
+    <access origin="*" />
+</widget>
