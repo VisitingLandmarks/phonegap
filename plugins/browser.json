@@ -15,6 +15,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.visitinglandmarks.app"
+        },
+        "nl.x-services.plugins.insomnia": {
+            "PACKAGE_NAME": "com.visitinglandmarks.app"
         }
     },
     "dependent_plugins": {}
