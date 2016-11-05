@@ -16,7 +16,7 @@
     <!--DisallowOverscroll (boolean, defaults to false): set to true if you don't want the WebView to rubber-band.-->
     <preference name="DisallowOverscroll" value="true"/>
     <!--https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net-->
-    <preference name="android-minSdkVersion" value="19"/>
+    <preference name="android-minSdkVersion" value="14"/>
     <preference name="android-targetSdkVersion" value="22"/>
     <preference name="Fullscreen" value="true"/>
     <!--For Android (as of its 4.0 release), Cordova's security policy is extensible via a plugin interface. Your app should use the cordova-plugin-whitelist-->
